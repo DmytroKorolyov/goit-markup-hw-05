@@ -425,7 +425,45 @@ color: var(--light);
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
-        letter-spacing: 0.32px;
+        letter-spacing: 0.02em;
+        margin-bottom: 16px;
+}
+
+.subscribe-form-input {
+    width: 264px;
+    height: 40px;
+    border-radius: 4px;
+        border: 1px solid var(--white-background);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        background-color: transparent;
+        font-size: 12px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        padding-left: 16px;
+}
+.subscribe-form-input::placeholder {
+    color: var(--white-background);
+}
+.footer-subscribe-button {
+    min-width: 165px;
+    height: 40px;
+    border-radius: 4px;
+        background: var(--primary-brand);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: var(--white-background);
+        cursor: pointer;
+        background-color: var(--primary-brand);
+        border: none;
+}
+.footer-subscribe-icon {
+    margin-left: 16px;
 }
 
 
