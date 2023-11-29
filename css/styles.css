@@ -418,6 +418,7 @@ color: var(--light);
 
 .subscribe-form {
     display: flex;
+    gap: 24px;
 }
 
 .footer-subscribe-text {
@@ -440,6 +441,7 @@ color: var(--light);
         line-height: 1.5;
         letter-spacing: 0.04em;
         padding-left: 16px;
+        color: var(--white-background);
 }
 .subscribe-form-input::placeholder {
     color: var(--white-background);
